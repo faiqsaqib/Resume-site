@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(88, 26, 147);
+    padding: 20px 200px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+li{
+    transition-timing-function: ease-in-out;
+}
+
+li:hover{
+    text-shadow: 2px 2px 5px white;
+    
+}
+
+i{
+    font-size: medium ;
+    color: white;
+    margin-right: 3px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.react-card{
+    width: 230px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.react-card:hover{
+    width: 245px;
+    height: 260px;
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-out;
+
+
+}
+
+
+
+.react-card img{
+    width: inherit;
+    height: 130px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about{
+    background-color: white;
+    width: 45vw;
+    height: 43vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.about:hover{
+    width: 46vw;
+    height: 44vh;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.info{
+    width: 40vw;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.info .info-left p{
+    font-size: 13px;
+    font-weight:500;
+
+}
+.info .info-right p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 150px;
+
+}
+
+.right-2{
+    background-color: white;
+    width: 45vw;
+    height: 43vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    padding: 20px;
+    border-radius: 5px;
+
+    
+}
+
+.skills{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows:  auto auto auto;
+    gap: 35px;
+}
+.right-2:hover{
+    width: 46vw;
+    height: 44vh;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.right-3{
+    background-color: white;
+    width: 45vw;
+    height: 43vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.right-3:hover{
+    width: 46vw;
+    height: 44vh;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.EXPERIENCE{
+    display: flex;
+    gap: 40px;
+}
+
+.month{
+    background-color: rgb(128, 152, 128);
+    width: 36%;
+
+    height: 16px;
+}
+
+.month p{
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+
+.dev{
+    width: 23.5vw ;
+    font-size: small;
+    padding-left: 30px;
+    border-left: 7px solid rgb(128, 152, 128);
+}
+.right-4{
+    background-color: white;
+    width: 45vw;
+    height: 51vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 30px;
+    border-radius: 5px;
+
+}
+
+.right-4:hover{
+    width: 46vw;
+    height: 52vh;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.certificate{
+    margin-top: 20px;
+    display: flex;
+    gap: 180px;
+}
+
+.certificate h6{
+    font-weight: bold;
+}
+
+.education{
+    width: 98%;
+    height: 8vh;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+    border-radius: 3px;
+
+}
+.education p{
+    font-size: small;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 5px;
+}
